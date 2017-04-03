@@ -1,6 +1,6 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 {% set name = "courtana" %}
-{% set sha256 = "b0fa19f140618a248c847d7a13423a328137a442835289ee4357dcbbd3cc636f" %}
+{% set sha256 = "5132c042081e688c1147d4141f6f2be431aa3adc2e326607bd68f171acaff62f" %}
 
 package:
   name: {{ name }}
@@ -34,7 +34,7 @@ test:
     - {{ name }}
 
 about:
-  home: https://bitbucket.org/cachitas/courtana
+  home: https://bitbucket.org/fchampalimaud/courtana
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -42,7 +42,7 @@ about:
   description: |
     courtana provides a set of tools for courtship analysis in Drosophila.
   doc_url: http://courtana.readthedocs.io/en/dev/index.html
-  dev_url: https://bitbucket.org/cachitas/courtana
+  dev_url: https://bitbucket.org/fchampalimaud/courtana
 
 extra:
   recipe-maintainers:
