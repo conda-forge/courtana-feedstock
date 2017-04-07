@@ -1,6 +1,6 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 {% set name = "courtana" %}
-{% set sha256 = "5132c042081e688c1147d4141f6f2be431aa3adc2e326607bd68f171acaff62f" %}
+{% set sha256 = "10bdecdc770ccc74cd7cfb00f12c5276a44ebbba9d2c7a61258dd006b307e4b1" %}
 
 package:
   name: {{ name }}
