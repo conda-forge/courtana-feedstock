@@ -1,7 +1,7 @@
 About courtana
 ==============
 
-Home: https://bitbucket.org/cachitas/courtana
+Home: https://bitbucket.org/fchampalimaud/courtana
 
 Package license: BSD 3-Clause
 
