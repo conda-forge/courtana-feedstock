@@ -1,6 +1,6 @@
 {% set version = "0.7.1" %}
 {% set name = "courtana" %}
-{% set sha256 = "46cb805720655613595f49d59110b49de71d3402bd44de414e873305b00d50a5" %}
+{% set sha256 = "1f5b850b8893683bc527ecacce7c1efa5616e23aadeecbbcd16d35c50f91ee69" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: True  # [py<34]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
